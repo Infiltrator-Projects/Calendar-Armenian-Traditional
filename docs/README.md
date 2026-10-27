@@ -1,3 +1,12 @@
-# Documentation
+# Traditional Armenian Calendar — documentation index
 
-This resource is documented from the existing Libraries temporal source and Calendar model specifications. Implementation, tests, and installer migration are not complete. See the repository README for its current identity.
+This repository contains source for exactly one `calendar` provider, stable ID `armenian-traditional`. The Common original is retained.
+
+- [Overview](../README.md) — identity, model, current status and source links.
+- [Model](MODEL.md) — maintained interpretation and fidelity boundaries.
+- [Architecture](ARCHITECTURE.md) — local source, helpers and native ABI.
+- [Validation](VALIDATION.md) — completed copy checks and remaining qualification.
+- [Roadmap](ROADMAP.md) — copy baseline and later packaging/release work.
+- [Source copy record](../SOURCE.md) — original revision, local build and copying method.
+- [Source manifest](../SOURCE-MANIFEST.json) — file provenance and hashes.
+- [Recorded results](../VALIDATION-RESULTS.json) — exact checks and tested host.

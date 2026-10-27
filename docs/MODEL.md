@@ -9,3 +9,7 @@ This is deliberately separate from later Armenian calendar reforms. Historical u
 **Present status:** the implementation is still in [Libraries/Common](https://github.com/Infiltrator-Projects/Libraries/tree/main/resources/temporal). This repository documents a planned standalone implementation but does not yet contain its source code or installer.
 
 **Sources:** [Calendar chronology models](https://github.com/Infiltrator-Projects/Calendar/blob/main/docs/MODELS.md); [Common historical fidelity audit](https://github.com/Infiltrator-Projects/Libraries/blob/main/docs/TEMPORAL_HISTORICAL_FIDELITY.md).
+
+## Source copy status
+
+The model-specific implementation and required helpers are now copied into this repository. Its behaviour was compared with the original Common 1.19.78 provider; this adds copy-regression evidence, not a new independent historical audit. See [source provenance](../SOURCE.md) and [validation results](../VALIDATION-RESULTS.json). The original Common implementation remains in place.
