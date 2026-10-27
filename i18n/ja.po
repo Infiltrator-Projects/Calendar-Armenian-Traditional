@@ -1,0 +1,65 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Calendar ja translation.
+# Copyright (C) 1993-2026 Shannon Smith
+# This file is distributed under the same license as the Calendar package.
+# Initial translation prepared for Calendar, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Calendar 1.0.82\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 17:35+0800\n"
+"PO-Revision-Date: 2026-09-01 03:05+0000\n"
+"Last-Translator: Calendar contributors\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, c-format
+msgid "%d %s %lld %s"
+msgstr "%d %s %lld %s"
+
+#, c-format
+msgid "%d %s %lld"
+msgstr "%d %s %lld"
+
+msgid "Nawasard"
+msgstr "Nawasard"
+
+msgid "Hoi"
+msgstr ""
+
+msgid "Sahmi"
+msgstr "Sahmi"
+
+msgid "Tr"
+msgstr ""
+
+msgid "Kaoc"
+msgstr ""
+
+msgid "Arac"
+msgstr ""
+
+msgid "Mehekan"
+msgstr "Mehekan"
+
+msgid "Areg"
+msgstr "Areg"
+
+msgid "Ahekan"
+msgstr "Ahekan"
+
+msgid "Mareri"
+msgstr "Mareri"
+
+msgid "Margac"
+msgstr ""
+
+msgid "Hrotic"
+msgstr ""
+
+msgid "Aweleac"
+msgstr ""

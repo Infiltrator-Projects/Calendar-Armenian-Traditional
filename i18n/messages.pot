@@ -1,0 +1,48 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Extracted only from this provider's private source.
+#, c-format
+msgid "%d %s %lld %s"
+msgstr ""
+
+#, c-format
+msgid "%d %s %lld"
+msgstr ""
+
+msgid "Nawasard"
+msgstr ""
+
+msgid "Hoi"
+msgstr ""
+
+msgid "Sahmi"
+msgstr ""
+
+msgid "Tr"
+msgstr ""
+
+msgid "Kaoc"
+msgstr ""
+
+msgid "Arac"
+msgstr ""
+
+msgid "Mehekan"
+msgstr ""
+
+msgid "Areg"
+msgstr ""
+
+msgid "Ahekan"
+msgstr ""
+
+msgid "Mareri"
+msgstr ""
+
+msgid "Margac"
+msgstr ""
+
+msgid "Hrotic"
+msgstr ""
+
+msgid "Aweleac"
+msgstr ""
