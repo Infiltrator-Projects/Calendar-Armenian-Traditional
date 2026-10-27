@@ -6,7 +6,7 @@ The implementation represents a 365-day wandering Armenian calendar, anchored to
 
 This is deliberately separate from later Armenian calendar reforms. Historical usage in different periods is not certified by a mathematical continuation.
 
-**Present status:** the implementation is still in [Libraries/Common](https://github.com/Infiltrator-Projects/Libraries/tree/main/resources/temporal). This repository documents a planned standalone implementation but does not yet contain its source code or installer.
+**Present status:** this repository contains its own copied provider source and build. The original implementation also remains in [Libraries/Common](https://github.com/Infiltrator-Projects/Libraries/tree/main/resources/temporal). See the independent forensic audit for its qualification and limits.
 
 **Sources:** [Calendar chronology models](https://github.com/Infiltrator-Projects/Calendar/blob/main/docs/MODELS.md); [Common historical fidelity audit](https://github.com/Infiltrator-Projects/Libraries/blob/main/docs/TEMPORAL_HISTORICAL_FIDELITY.md).
 
