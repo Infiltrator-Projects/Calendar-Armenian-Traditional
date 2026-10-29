@@ -206,10 +206,10 @@ def build_deb(profile, output, jobs):
                     raise ValueError("Invalid translation language")
                 # Local verification fixtures only: translations are compiled
                 # into the .so and never installed as separate .mo files.
-                destination_mo = build / "test-locales" / language / "LC_MESSAGES" / (PACKAGE + ".mo")
+                destination_mo = ROOT / "build/package/test-locales" / language / "LC_MESSAGES" / (PACKAGE + ".mo")
                 destination_mo.parent.mkdir(parents=True, exist_ok=True)
                 run(["msgfmt", "--check", "-o", destination_mo, ROOT / "i18n" / (language + ".po")])
-            run([sys.executable, "tests/check_translations.py", target, build / "test-locales"])
+            run([sys.executable, "tests/check_translations.py", target, ROOT / "build/package/test-locales"])
         control = stage / "DEBIAN"
         control.mkdir()
         (control / "control").write_text(
