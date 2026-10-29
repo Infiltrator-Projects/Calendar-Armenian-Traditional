@@ -1,0 +1,24 @@
+{
+  "title": "Traditional Armenian Calendar",
+  "intro": "This traditional Armenian calendar counts the passage of days in an unchanging 365-day year. Unlike the modern Gregorian calendar, it does not insert a leap day.",
+  "summary": "Twelve months of thirty days each, followed by five extra days.",
+  "epoch": "Its epoch is 11 July AD 552 in the Julian calendar. That is the starting date used by this computational model.",
+  "month_names": [
+    "Nawasard",
+    "Hoṙi",
+    "Sahmi",
+    "Trē",
+    "Kʿałocʿ",
+    "Aracʿ",
+    "Mehekan",
+    "Areg",
+    "Ahekan",
+    "Mareri",
+    "Margacʿ",
+    "Hroticʿ"
+  ],
+  "extra_days": "Aweleacʿ",
+  "history": "It is called a wandering calendar because its 365-day years slowly move against the seasons. A tropical solar year is slightly longer than 365 days. Without a leap day, the calendar year slips gradually relative to the solar seasons.",
+  "limits": "The model describes the traditional wandering year; later Armenian reforms and variations in historical local practice are separate subjects. The illustrations are schematic, not exact astronomical conversion charts.",
+  "source": "https://github.com/Infiltrator-Projects/Calendar-Armenian-Traditional"
+}
