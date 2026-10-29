@@ -131,7 +131,6 @@ def main():
     # the domain constant, so testing for an unstripped string is not valid.
     # The Makefile must still bind the exact provider-owned gettext domain.
     assert domain in (ROOT / "Makefile").read_text(), "Provider must declare its gettext domain"
-        "Provider does not declare its own gettext domain")
     print(f"{manifest['id']}: {len(languages)} provider-owned catalogues, {checked} translated ABI observations passed")
     if private_locale is not None:
         private_locale.cleanup()
