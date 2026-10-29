@@ -47,3 +47,13 @@ Run the downloaded `.run --profile aggressive` as an ordinary user. It provision
 Each package owns only this provider and its passive documentation. Its `Replaces` declaration transfers this module from `infiltrator-calendar-resources` on existing machines; other modules and Common source remain intact. Native package versions use `+native1` so a same-version generic package does not replace a local optimized build. See [packaging details](docs/PACKAGING.md).
 
 Translations use the provider-owned gettext domain `infiltrator-calendar-armenian-traditional`. The package ships only its own messages in `/usr/share/locale/<language>/LC_MESSAGES/infiltrator-calendar-armenian-traditional.mo`; Common’s combined translation package is not required. The exact compiled catalogues are checked through the provider ABI before packaging.
+
+## Two-file installed documentation contract
+
+Installation places exactly the calendar's shared object and its illustrated
+public PDF guide under the native InfiltratorOS directories. Developer notes,
+source manifests, audits and build records remain in this repository or Debian
+control metadata. Provider-owned translations are compiled into the .so, not
+installed as separate locale catalogues. The PDF is generated deterministically
+from [public guide facts](docs/GUIDE.json) by
+[packaging/build_guide.py](packaging/build_guide.py).
