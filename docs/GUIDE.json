@@ -1,7 +1,7 @@
 {
   "title": "Traditional Armenian Calendar",
-  "intro": "The traditional Armenian calendar is a wandering civil year with no leap-day correction.",
-  "epoch": "Its epoch is 11 July AD 552 in the Julian calendar. That is the starting date used by this computational model.",
+  "intro": "The traditional Armenian calendar is a wandering civil calendar.",
+  "epoch": "Its epoch is 11 July AD 552 in the Julian calendar.",
   "structure": "Twelve 30-day months are followed by five epagomenal days, called Aweleac'. Each year has exactly 365 days.",
   "month_names": [
     "Nawasard",
@@ -19,7 +19,7 @@
   ],
   "example": "The day immediately after day 30 of Hrotic' is the first extra day; after the fifth extra day, the next year begins with Nawasard 1.",
   "history": "Because the tropical year is slightly longer than 365 days, the year's beginning gradually moves through the seasons.",
-  "model": "The provider uses a fixed-length year anchored to 11 July AD 552 Julian, with arithmetic continuation in both directions.",
+  "model": "The provider anchors fixed-length year arithmetic to that epoch, with arithmetic continuation in both directions.",
   "limits": "Later Armenian calendar reforms and regional historical practice are separate subjects. The mathematical continuation does not certify historical usage.",
   "sources": [
     "https://github.com/Infiltrator-Projects/Calendar-Armenian-Traditional",
