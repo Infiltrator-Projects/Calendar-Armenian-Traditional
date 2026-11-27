@@ -1,8 +1,8 @@
 {
   "title": "Traditional Armenian Calendar",
-  "intro": "This traditional Armenian calendar counts the passage of days in an unchanging 365-day year. Unlike the modern Gregorian calendar, it does not insert a leap day.",
-  "summary": "Twelve months of thirty days each, followed by five extra days.",
+  "intro": "The traditional Armenian calendar is a wandering civil year with no leap-day correction.",
   "epoch": "Its epoch is 11 July AD 552 in the Julian calendar. That is the starting date used by this computational model.",
+  "structure": "Twelve 30-day months are followed by five epagomenal days, called Aweleac'. Each year has exactly 365 days.",
   "month_names": [
     "Nawasard",
     "Hoṙi",
@@ -17,8 +17,12 @@
     "Margacʿ",
     "Hroticʿ"
   ],
-  "extra_days": "Aweleacʿ",
-  "history": "It is called a wandering calendar because its 365-day years slowly move against the seasons. A tropical solar year is slightly longer than 365 days. Without a leap day, the calendar year slips gradually relative to the solar seasons.",
-  "limits": "The model describes the traditional wandering year; later Armenian reforms and variations in historical local practice are separate subjects. The illustrations are schematic, not exact astronomical conversion charts.",
-  "source": "https://github.com/Infiltrator-Projects/Calendar-Armenian-Traditional"
+  "example": "The day immediately after day 30 of Hrotic' is the first extra day; after the fifth extra day, the next year begins with Nawasard 1.",
+  "history": "Because the tropical year is slightly longer than 365 days, the year's beginning gradually moves through the seasons.",
+  "model": "The provider uses a fixed-length year anchored to 11 July AD 552 Julian, with arithmetic continuation in both directions.",
+  "limits": "Later Armenian calendar reforms and regional historical practice are separate subjects. The mathematical continuation does not certify historical usage.",
+  "sources": [
+    "https://github.com/Infiltrator-Projects/Calendar-Armenian-Traditional",
+    "Model evidence: https://github.com/Infiltrator-Projects/Calendar-Armenian-Traditional/blob/main/docs/MODEL.md"
+  ]
 }
