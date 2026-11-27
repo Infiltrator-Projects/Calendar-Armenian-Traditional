@@ -19,7 +19,7 @@
   ],
   "example": "The day immediately after day 30 of Hrotic' is the first extra day; after the fifth extra day, the next year begins with Nawasard 1.",
   "history": "Because the tropical year is slightly longer than 365 days, the year's beginning gradually moves through the seasons.",
-  "model": "The provider anchors fixed-length year arithmetic to that epoch, with arithmetic continuation in both directions.",
+  "model": "For epoch day E, arithmetic year y, month m and day d, JDN = E+365*(y-1)+30*(m-1)+d-1. Month 13 allows only days 1–5. For inverse conversion, floor-divide JDN-E by 365 and add one to obtain the year; the nonnegative remainder gives the zero-based day within that year. The arithmetic extends in both directions.",
   "limits": "Later Armenian calendar reforms and regional historical practice are separate subjects. The mathematical continuation does not certify historical usage.",
   "sources": [
     "https://github.com/Infiltrator-Projects/Calendar-Armenian-Traditional",
